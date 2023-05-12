@@ -3,6 +3,7 @@ package com.alok.springboot.tutorial.service;
 import com.alok.springboot.tutorial.entity.Department;
 import com.alok.springboot.tutorial.repository.DepartmentRepository;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;

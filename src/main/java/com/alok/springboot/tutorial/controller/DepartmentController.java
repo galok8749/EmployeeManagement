@@ -3,14 +3,12 @@ package com.alok.springboot.tutorial.controller;
 import com.alok.springboot.tutorial.entity.Department;
 import com.alok.springboot.tutorial.error.DepartmentNotFoundException;
 import com.alok.springboot.tutorial.service.DepartmentService;
-import jakarta.validation.Valid;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 import java.util.Optional;
-import java.util.logging.Logger;
 
 @RestController
 public class DepartmentController {
